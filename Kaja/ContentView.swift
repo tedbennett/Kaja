@@ -9,8 +9,28 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var englishToKorean = true
+    
     var body: some View {
-        Text("Hello, World!")
+        NavigationView {
+            VStack {
+                Spacer()
+                NavigationLink(destination: TestView()) {
+                    Text("Vowels")
+                }
+                Spacer()
+                NavigationLink(destination: TestView()) {
+                    Text("Consonants")
+                }
+                Spacer()
+                Button(action: {
+                    self.englishToKorean.toggle()
+                }) {
+                    Text(englishToKorean ? "English -> Korean" : "Korean -> English")
+                }
+                Spacer()
+            }.navigationBarTitle("Kaja!")
+        }
     }
 }
 
