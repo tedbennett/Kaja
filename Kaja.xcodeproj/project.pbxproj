@@ -16,6 +16,7 @@
 		9F42A71324B9CE3A000AAC30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F42A71124B9CE3A000AAC30 /* LaunchScreen.storyboard */; };
 		9F42A71B24B9D30B000AAC30 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 9F42A71A24B9D30B000AAC30 /* .gitignore */; };
 		9F42A71D24B9E9CF000AAC30 /* MultipleChoiceTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F42A71C24B9E9CF000AAC30 /* MultipleChoiceTestView.swift */; };
+		9FE2481E24BE063F009F60E6 /* TestFinishedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE2481D24BE063F009F60E6 /* TestFinishedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		9F42A71424B9CE3A000AAC30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F42A71A24B9D30B000AAC30 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		9F42A71C24B9E9CF000AAC30 /* MultipleChoiceTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleChoiceTestView.swift; sourceTree = "<group>"; };
+		9FE2481D24BE063F009F60E6 /* TestFinishedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFinishedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		9F42A70224B9CE38000AAC30 /* Kaja */ = {
 			isa = PBXGroup;
 			children = (
+				9FE2481D24BE063F009F60E6 /* TestFinishedView.swift */,
 				9F42A70324B9CE38000AAC30 /* AppDelegate.swift */,
 				9F42A70524B9CE38000AAC30 /* SceneDelegate.swift */,
 				9F42A70A24B9CE38000AAC30 /* ContentView.swift */,
@@ -157,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F42A70924B9CE38000AAC30 /* Kaja.xcdatamodeld in Sources */,
+				9FE2481E24BE063F009F60E6 /* TestFinishedView.swift in Sources */,
 				9F42A71D24B9E9CF000AAC30 /* MultipleChoiceTestView.swift in Sources */,
 				9F42A70424B9CE38000AAC30 /* AppDelegate.swift in Sources */,
 				9F42A70B24B9CE38000AAC30 /* ContentView.swift in Sources */,
