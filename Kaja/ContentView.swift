@@ -15,11 +15,11 @@ struct ContentView: View {
         NavigationView {
             VStack {
                 Spacer()
-                NavigationLink(destination: TestView()) {
+                NavigationLink(destination: MultipleChoiceTestView(questions: [:])) {
                     Text("Vowels")
                 }
                 Spacer()
-                NavigationLink(destination: TestView()) {
+                NavigationLink(destination: MultipleChoiceTestView(questions: [:])) {
                     Text("Consonants")
                 }
                 Spacer()

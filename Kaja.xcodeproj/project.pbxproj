@@ -15,7 +15,7 @@
 		9F42A71024B9CE3A000AAC30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F42A70F24B9CE3A000AAC30 /* Preview Assets.xcassets */; };
 		9F42A71324B9CE3A000AAC30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F42A71124B9CE3A000AAC30 /* LaunchScreen.storyboard */; };
 		9F42A71B24B9D30B000AAC30 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 9F42A71A24B9D30B000AAC30 /* .gitignore */; };
-		9F42A71D24B9E9CF000AAC30 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F42A71C24B9E9CF000AAC30 /* TestView.swift */; };
+		9F42A71D24B9E9CF000AAC30 /* MultipleChoiceTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F42A71C24B9E9CF000AAC30 /* MultipleChoiceTestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 		9F42A71224B9CE3A000AAC30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F42A71424B9CE3A000AAC30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F42A71A24B9D30B000AAC30 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		9F42A71C24B9E9CF000AAC30 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		9F42A71C24B9E9CF000AAC30 /* MultipleChoiceTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleChoiceTestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,7 @@
 				9F42A70324B9CE38000AAC30 /* AppDelegate.swift */,
 				9F42A70524B9CE38000AAC30 /* SceneDelegate.swift */,
 				9F42A70A24B9CE38000AAC30 /* ContentView.swift */,
-				9F42A71C24B9E9CF000AAC30 /* TestView.swift */,
+				9F42A71C24B9E9CF000AAC30 /* MultipleChoiceTestView.swift */,
 				9F42A70C24B9CE3A000AAC30 /* Assets.xcassets */,
 				9F42A71124B9CE3A000AAC30 /* LaunchScreen.storyboard */,
 				9F42A71424B9CE3A000AAC30 /* Info.plist */,
@@ -157,7 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F42A70924B9CE38000AAC30 /* Kaja.xcdatamodeld in Sources */,
-				9F42A71D24B9E9CF000AAC30 /* TestView.swift in Sources */,
+				9F42A71D24B9E9CF000AAC30 /* MultipleChoiceTestView.swift in Sources */,
 				9F42A70424B9CE38000AAC30 /* AppDelegate.swift in Sources */,
 				9F42A70B24B9CE38000AAC30 /* ContentView.swift in Sources */,
 				9F42A70624B9CE38000AAC30 /* SceneDelegate.swift in Sources */,

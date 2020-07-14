@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct TestView: View {
+struct MultipleChoiceTestView: View {
     var body: some View {
         VStack {
             Text("Test").font(.largeTitle)
@@ -35,6 +35,6 @@ struct TestView: View {
 
 struct TestView_Previews: PreviewProvider {
     static var previews: some View {
-        TestView()
+        MultipleChoiceTestView()
     }
 }
