@@ -15,11 +15,11 @@ struct ContentView: View {
         NavigationView {
             VStack {
                 Spacer()
-                NavigationLink(destination: MultipleChoiceTestView(questions: [:])) {
+                NavigationLink(destination: MultipleChoiceTestView(dict: hangulVowels)) {
                     Text("Vowels")
                 }
                 Spacer()
-                NavigationLink(destination: MultipleChoiceTestView(questions: [:])) {
+                NavigationLink(destination: MultipleChoiceTestView(dict: hangulConsonants)) {
                     Text("Consonants")
                 }
                 Spacer()
@@ -32,6 +32,7 @@ struct ContentView: View {
             }.navigationBarTitle("Kaja!")
         }
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
@@ -39,3 +40,36 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+let hangulVowels = ["ㅏ":"a",
+                    "ㅑ":"ya",
+                    "ㅓ":"eo",
+                    "ㅕ":"yeo",
+                    "ㅗ":"o",
+                    "ㅛ":"yo",
+                    "ㅜ":"u",
+                    "ㅠ":"yu",
+                    "ㅡ":"eu",
+                    "ㅣ":"i",
+                    "ㅔ":"e",
+                    "ㅐ":"ae",
+                    "ㅒ":"yae",
+                    "ㅖ":"ye"
+]
+
+let  hangulConsonants = ["ㄱ":"g",
+                         "ㄴ":"n",
+                         "ㄷ":"d",
+                         "ㄹ":"l/r",
+                         "ㅁ":"m",
+                         "ㅂ":"b",
+                         "ㅅ":"s",
+                         "ㅇ":"ng",
+                         "ㅈ":"j",
+                         "ㅊ":"ch",
+                         "ㅋ":"k",
+                         "ㅌ":"t",
+                         "ㅍ":"p",
+                         "ㅎ":"h"]
+
+
